@@ -36,7 +36,7 @@ body {
 
 @layer utilities {
   .headsp {
-    @apply ml-[5.3%] text-[6.4rem] text-transparent font-bold leading-[100%] 
+    @apply  text-[6.4rem] text-transparent font-bold leading-[100%] 
            [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5];
     font-family: var(--font-oswald);
   }
