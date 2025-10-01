@@ -5,7 +5,7 @@ import Concept from "./components/Concept/Concept";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Mainvisual from "./components/MV/Mainvisual";
-import About from "./components/ABOUT/About";
+import About from "./components/ABOUT/About.sp";
 
 export default function Home() {
   return (
