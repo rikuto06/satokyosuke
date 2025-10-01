@@ -5,11 +5,13 @@ import Menu from "./components/Menu/Menu";
 import Concept from "./components/Concept/Concept";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Mainvisual from "./components/MV/Mainvisual";
 
 export default function Home() {
   return (
     <>
     <Header/>
+    <Mainvisual/>
     <Message/>
     <Concept/>
     <Menu/>
@@ -18,4 +20,5 @@ export default function Home() {
     </>
       );
 }
+
 

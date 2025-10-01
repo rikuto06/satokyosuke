@@ -24,11 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className="..." suppressHydrationWarning>
+  <div id="scroll-container">
+    {children}
+  </div>
+</body>
     </html>
   );
 }
