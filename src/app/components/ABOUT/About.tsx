@@ -1,6 +1,9 @@
 import React from 'react'
 import { oswald } from '@/app/utils/Fonts';
 
+
+const images = []
+
 export default function About() {
   return (
     <section className='bg-[#001A00] pt-[49px]'>
