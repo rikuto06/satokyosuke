@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 
@@ -17,8 +18,9 @@ export default function Nav({ isOpen }: NavProps) {
             <li><Link href='#contact' aria-label='CONTACTセクションへ移動'>CONTACT</Link></li>
             <li><Link href='#access' aria-label='ACCESSセクションへ移動'>ACCESS</Link></li>
         </ul>
+         <Link href='https://www.instagram.com/ky0_1?utm_source=ig_web_button_share_sheet&igsh=NmZrMnE4ZTR4NDJ3' aria-label='インスタグラムアカウントページへ移動' target='_blank' rel='noopener noreferrer' className='fixed bottom-0 right-[5.3%]'><Image src='/instagramicon.svg' alt='インスタグラムのアイコン画像' width={24} height={24}  /></Link>
     </nav>
-    <Link href='https://www.instagram.com/ky0_1?utm_source=ig_web_button_share_sheet&igsh=NmZrMnE4ZTR4NDJ3' aria-label='インスタグラムアカウントページへ移動' target='_blank' rel='noopener noreferrer'><img src="" alt="インスタグラムのアイコン画像" /></Link>
+   
     </>
   )
 }
