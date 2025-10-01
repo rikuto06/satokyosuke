@@ -2,6 +2,9 @@
 body {
   background-color: #0D0D0D;
   color: #F5F5F5;
+  font-family: "Hiragino Mincho Pro", "Noto Serif JP", serif;
+  font-size: 1.4rem;
+  font-weight: normal;
 }
 body {
   height: 100svh;
@@ -28,3 +31,22 @@ body {
   z-index: -1;
   transform: translate3d(0, 0, -1px);
 }
+
+
+
+@layer utilities {
+  .headsp {
+    @apply ml-[5.3%] text-[6.4rem] text-transparent font-bold leading-[100%] 
+           [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5];
+    font-family: var(--font-oswald);
+  }
+}
+
+@layer utilities {
+  .headpc {
+    @apply text-[22.1rem] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5];
+    font-family: var(--font-oswald);
+  }
+
+}
+
