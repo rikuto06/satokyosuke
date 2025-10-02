@@ -2,6 +2,17 @@ import React from 'react'
 
 export default function Access() {
   return (
-    <div>Access</div>
+    <section className='px-[5.3%] mt-[49px]'>
+      <h2 className='headsp'>ACCESS</h2>
+    <iframe className='h-[322px] w-full mt-[51px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6484.38156047228!2d139.69522607583437!3d35.64767097259802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b4e5ccebb51%3A0x47e3fa352cab3e4!2zZnJvbTAyODfvvIjjg5jjgqLjgIHjg5zjg4fjgqPjgIHjg6Hjg7Pjgr_jg6vjgIHjgrTjg4Pjg4njgq_jg6rjg7zjg4rjg7zvvInntKDnspLmsLTmraPopo_lj5bmibHku6PnkIblupc!5e0!3m2!1sja!2sjp!4v1759395957543!5m2!1sja!2sjp" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+    <dl>
+      <dt className='mt-[27px] text-[1.6rem]'>住所</dt>
+      <dd className='mt-[15px]'>〒153-0042 東京都目黒区青葉台<br/>１丁目１８−３ ハナブサマンション 201</dd>
+      <dt className='mt-[25px] text-[1.6rem]'>アクセス</dt>
+      <dd className='mt-[15px]'>東急東横線・東京メトロ日比谷線<br/>中目黒駅 正面改札から徒歩7分</dd>
+      <dt className='mt-[25px] text-[1.6rem]'>受付時間</dt>
+      <dd className='mt-[15px]'>13時～21時(変動あり)</dd>
+    </dl>
+    </section>
   )
 }

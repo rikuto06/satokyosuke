@@ -9,6 +9,7 @@ import Mainvisual from "./components/MV/Mainvisual";
 import About from "./components/ABOUT/About.sp";
 import Works from "./components/Works/Works";
 import Script from "next/script";
+import Access from "./components/Access/Access";
 
 export default function Home() {
   const jsonLd = {
@@ -92,6 +93,7 @@ export default function Home() {
       <Works/>
       <Menu/>
       <Contact/>
+      <Access/>
       <Footer/>
 
       {/* JSON-LD を埋め込む */}
@@ -103,3 +105,5 @@ export default function Home() {
     </>
   );
 }
+
+
