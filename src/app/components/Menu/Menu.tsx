@@ -9,8 +9,8 @@ export default function Menu() {
  
 
   return (
-    <section className='px-[5.3%]'>
-      <h2 className='headsp'>MENU</h2>
+    <section className='px-[5.3%] mt-[49px]'>
+      <h2 className={`${oswald.className} text-[6.4rem] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5]`}>MENU</h2>
       <div className='relative h-[185px] w-full mt-[127px]'>
         <MenuImage/>
       </div>
