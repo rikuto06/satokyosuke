@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Mainvisual from "./components/MV/Mainvisual";
 import About from "./components/ABOUT/About.sp";
+import Works from "./components/Works/Works";
 
 export default function Home() {
   return (
@@ -15,10 +16,10 @@ export default function Home() {
     <Message/>
     <Concept/>
     <About/>
+    <Works/>
     <Menu/>
     <Contact/>
     <Footer/>
     </>
       );
 }
-

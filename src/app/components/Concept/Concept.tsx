@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 export default function Concept() {
   return (
-   <section className='mt-[49px] pl-[5.3%] pr-[6.93%]'>
+   <section className='mt-[49px] pl-[5.3%] pr-[6.93%] pb-[49px]'>
     <h2 className='headsp'>CONCEPT</h2>
     <h3 className='text-[2.4rem] font-medium leading-[43px] mt-[47px]'>若者に刺さる<br/>男前スタイルの拠点</h3>
     <div className='flex mt-[49px]'>

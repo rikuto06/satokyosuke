@@ -1,77 +1,82 @@
 import React from 'react'
 import Image from 'next/image'
+import { oswald } from '@/app/utils/Fonts';
+import Link from 'next/link';
 
 export default function Works() {
  return (
-    <section>
-        <h2>WORKS</h2>
-        <div className='grid grid-cols4 gap-x-[12.7%] gap-y-[237px]'>
-            <div>
+    <section className='px-[10.8%] mt-[49px]'>
+        <h2 className='headsp'>WORKS</h2>
+        <div className='grid grid-cols-2 gap-x-[18.6%] gap-y-[75px] mt-[50px]'>
+      <div className='relative h-[155px] w-full'>
                 <Image
-    src={''}
+    src={'/hair-sunglassgold.jpeg'}
     alt='ヘアスタイル画像'
     fill
     className='object-cover'
       />
-            </div>
-            <div>
+      </div>
+      <div className='relative h-[155px] w-full'>
                 <Image
-    src={''}
+    src={'/haircrop-shaved.jpg'}
     alt='ヘアスタイル画像'
     fill
     className='object-cover'
       />
-            </div>
-            <div>
+      </div>
+      <div className='relative h-[155px] w-full'>
                 <Image
-    src={''}
+    src={'/hair-gold.jpeg'}
     alt='ヘアスタイル画像'
     fill
     className='object-cover'
       />
-            </div>
-            <div>
+      </div>
+      <div className='relative h-[155px] w-full'>
                 <Image
-    src={''}
+    src={'/hair-pink.jpeg'}
     alt='ヘアスタイル画像'
     fill
     className='object-cover'
       />
-            </div>
-            <div>
+      </div>
+      <div className='relative h-[155px] w-full'>
                 <Image
-    src={''}
+    src={'/hair-line.jpeg'}
     alt='ヘアスタイル画像'
     fill
     className='object-cover'
       />
-            </div>
-            <div>
+      </div>
+      <div className='relative h-[155px] w-full'>
                 <Image
-    src={''}
+    src={'/hair-perm.jpeg'}
     alt='ヘアスタイル画像'
     fill
     className='object-cover'
       />
-            </div>
-            <div>
+      </div>
+      <div className='relative h-[155px] w-full'>
                 <Image
-    src={''}
+    src={'/hair-perm-dread.jpg'}
     alt='ヘアスタイル画像'
     fill
     className='object-cover'
       />
-            </div>
-            <div>
+      </div>
+      <div className='relative h-[155px] w-full'>
                 <Image
-    src={''}
+    src={'/hair-gold-easyperm.jpeg'}
     alt='ヘアスタイル画像'
     fill
     className='object-cover'
       />
+      </div>
             </div>
-        </div>
-        <a href="">VIEW MORE<img src="" alt="" /></a>
+            <div className={`${oswald.className} mt-[39px]`}>
+          <Link href='#' aria-label='WORKSページへ移動' className='flex items-center gap-[11px] justify-end'>VIEW MORE <span className='relative block h-[16px] w-[16px]'><Image src='/Vector.png' alt='' fill/></span></Link>
+      </div>
     </section>
   )
 }
+
