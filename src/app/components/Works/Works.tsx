@@ -5,9 +5,11 @@ import Link from 'next/link';
 
 export default function Works() {
  return (
-    <section className='px-[10.8%] mt-[49px]'>
-        <h2 className={`${oswald.className} text-[6.4rem] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5]`}>WORKS</h2>
-        <div className='grid grid-cols-2 gap-x-[18.6%] gap-y-[75px] mt-[50px]'>
+    <section className='px-[10.8%] mt-[49px] md:px-0'>
+        <h2 className={`${oswald.className} text-[6.4rem] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:md:text-[22.1rem]`}>WORKS</h2>
+        <div className='grid grid-cols-2 gap-x-[18.6%] gap-y-[75px] mt-[50px]
+        md:grid-cols-5
+        '>
       <div className='relative h-[155px] w-full'>
                 <Image
     src={'/hair-sunglassgold.jpeg'}
@@ -67,6 +69,22 @@ export default function Works() {
       <div className='relative h-[155px] w-full'>
                 <Image
     src={'/hair-gold-easyperm.jpeg'}
+    alt='ヘアスタイル画像'
+    fill
+    className='object-cover'
+      />
+      </div>
+      <div className='relative h-[155px] w-full'>
+                <Image
+    src={'/hair-jm.jpeg'}
+    alt='ヘアスタイル画像'
+    fill
+    className='object-cover'
+      />
+      </div>
+      <div className='relative h-[155px] w-full'>
+                <Image
+    src={'/hairek.jpeg'}
     alt='ヘアスタイル画像'
     fill
     className='object-cover'
