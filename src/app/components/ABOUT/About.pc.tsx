@@ -71,7 +71,7 @@ export default function Aboutpc() {
                 </div>
             )}
             
-            {/* VIEW MOREボタン - 通常カーソルエリア */}
+            {/* 通常カーソルエリア */}
             <div className={`${oswald.className} mt-[39px]`}>
                 <Link href='/about' aria-label='ABOUTページへ移動' className='flex items-center gap-[11px] justify-end cursor-pointer'>
                     VIEW MORE 

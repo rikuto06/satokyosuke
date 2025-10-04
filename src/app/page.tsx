@@ -6,10 +6,10 @@ import Concept from "./components/Concept/Concept";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Mainvisual from "./components/MV/Mainvisual";
-import About from "./components/ABOUT/About.sp";
 import Works from "./components/Works/Works";
 import Script from "next/script";
 import Access from "./components/Access/Access";
+import About from "./components/ABOUT/Aboutsection";
 
 export default function Home() {
   const jsonLd = {
