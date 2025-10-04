@@ -9,10 +9,9 @@ export default function Concept() {
     `}>CONCEPT</h2>
     <div className='md:flex'>
     <h3 className='text-[2.4rem] font-medium mt-[47px] 
-    // コンセプトpc縦書き文のレスポンシブ
     md:[writing-mode:vertical-rl] md:text-[6.4rem] md: ml-[17.7%]
     '><p>若者に刺さる</p><p className='mt-[10px] md:mt-[115px]'>男前スタイルの拠点</p></h3>
-    <div className='flex mt-[49px] '>
+    <div className='flex mt-[49px]'>
       <h4 className='[writing-mode:vertical-rl]'>KYOSUKE SATO</h4>
       <div className='relative h-[25.5rem] w-[82.6%] flex-1
       md:h-[411px] 
