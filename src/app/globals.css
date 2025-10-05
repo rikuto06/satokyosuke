@@ -1,27 +1,35 @@
-@import "tailwindcss";html {font-size: 62.5%;};
+@import "tailwindcss";
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: #0D0D0D;
   color: #F5F5F5;
   font-family: "Hiragino Mincho Pro", "Noto Serif JP", serif;
   font-size: 1.4rem;
   font-weight: normal;
-}
-body {
-  height: 100svh;
-  overflow: clip;
   margin: 0;
   padding: 0;
-}#scroll-container {
-  height: 100svh;
-  overflow: auto;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
+  /* height: 100svh; を削除 */
+  /* overflow: clip; を削除 */
 }
+
+#scroll-container {
+  /* height: 100svh; を削除 */
+  /* overflow: auto; を削除 - 通常のスクロールに戻す */
+  /* scroll-behavior: smooth; */
+  /* -webkit-overflow-scrolling: touch; */
+  min-height: 100vh; /* これを追加 */
+}
+
 .sticky-element {
   position: sticky;
   top: 0;
   z-index: 10;
 }
+
 .fixed-background {
   position: fixed;
   top: 0;
@@ -32,13 +40,41 @@ body {
   transform: translate3d(0, 0, -1px);
 }
 
-
-
 @layer utilities {
   .headsp {
-    @apply  text-[6.4rem] text-transparent font-bold leading-[100%] 
+    @apply text-[6.4rem] text-transparent font-bold leading-[100%] 
            [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5];
     font-family: var(--font-oswald);
   }
 }
 
+/* ローディング画面のフェードアウト */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-fadeOut {
+  animation: fadeOut 3.5s ease-in-out forwards;
+}
+
+/* サイトコンテンツのフェードイン */
+body {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

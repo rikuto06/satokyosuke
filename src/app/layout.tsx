@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
+import SmoothScroll from "./utils/SmoothScroll";
+import Loading from "./components/Loading/Loading";
 
-// Oswald の設定（見出し用）
 const oswald = Oswald({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
@@ -23,8 +24,12 @@ export default function RootLayout({
   return (
     <html lang="ja" className={oswald.variable}>
       <body>
-        <div id="scroll-container">{children}</div>
+        <Loading/>
+        <SmoothScroll />
+        {children}
       </body>
     </html>
   );
 }
+
+
