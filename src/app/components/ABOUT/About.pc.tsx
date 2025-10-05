@@ -33,7 +33,6 @@ export default function Aboutpc() {
   const [isInImageArea, setIsInImageArea] = React.useState(false);
   const areaRef = React.useRef<HTMLDivElement>(null);
 
-  const [isHovered, setIsHovered] = React.useState(false);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLElement>) => {
     setMousePosition({ x: e.clientX, y: e.clientY });
