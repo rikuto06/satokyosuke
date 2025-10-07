@@ -6,10 +6,10 @@ import Viewmore from '@/app/utils/Viewmore';
 
 export default function Works() {
  return (
-    <section className='px-[10.8%] mt-[49px] md:px-0 md:mt-[160px]'>
-        <h2 className={`${oswald.className} text-[6.4rem] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:md:text-[22.1rem] md:ml-[5.3%]`}>WORKS</h2>
+    <section className='px-[10.8%] mt-[49px] md:px-0 md:mt-[100px] md:pb-[100px]'>
+        <h2 className={`${oswald.className} text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:ml-[5.3%]`}>WORKS</h2>
         <div className='grid grid-cols-2 gap-x-[18.6%] gap-y-[75px] mt-[50px]
-        md:grid-cols-5 md:px-[9.1%] md:gap-x-[12.7%] md:gap-y-[237px]
+        md:grid-cols-5 md:px-[9.1%] md:gap-x-[12.7%] md:gap-y-[237px] md:mt-[100px]
         '>
       <div className='relative h-[155px] w-full md:h-[123px]'>
                 <Image

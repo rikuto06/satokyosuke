@@ -43,7 +43,7 @@ export default function Aboutpc() {
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
 
-    // グリッドを細かく: 横19列 × 縦10行
+    //  横19列 × 縦10行
     const cols = 19;
     const rows = 10;
     const cellWidth = rect.width / cols;
@@ -66,7 +66,7 @@ export default function Aboutpc() {
   };
 
   return (
-    <section className="bg-[#001A00] py-[160px]">
+    <section className="bg-[#001A00] py-[100px]">
       {/* カーソル画像エリア */}
       <div
         ref={areaRef}

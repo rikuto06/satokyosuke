@@ -10,8 +10,8 @@ interface NavProps {
 export default function Nav({ isOpen }: NavProps) {
   return (
     <>
-    <nav className={`px-[5.3%] fixed top-0 left-0 w-full h-screen bg-[#0D0D0D] ${isOpen ? 'translate-y-0 duration-300' : '-translate-y-full duration-300'} z-100`}>
-        <ul className={`${oswald.className} flex flex-col text-[5rem] font-bold leading-normal text-[#F5F5F5]`}>
+    <nav className={`px-[5.3%] fixed top-0 left-0 w-full h-screen bg-[#0D0D0D] ${isOpen ? 'translate-y-0 duration-300' : '-translate-y-full duration-300'} z-100 `}>
+        <ul className={`${oswald.className} flex flex-col text-[5rem] font-bold leading-normal text-[#F5F5F5] mt-[193px]`}>
             <li><Link href='#concept' aria-label='CONCEPTセクションへ移動' className=''>CONCEPT</Link></li>
             <li><Link href='' aria-label='ABOUTMEページへ移動'>ABOUT ME</Link></li>
             <li><Link href='' aria-label='WORKSページへ移動'>WORKS</Link></li>

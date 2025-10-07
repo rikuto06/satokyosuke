@@ -9,14 +9,14 @@ export default function Menu() {
  
 
   return (
-    <section className='px-[5.3%] mt-[49px] md:px-0 md:mt-[160px]'>
-      <h2 className={`${oswald.className} text-[6.4rem] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:text-[22.1rem] md:ml-[5.3%]`}>MENU</h2>
+    <section className='px-[5.3%] mt-[49px] md:px-0 md:mt-[100px] md:pb-[100px]'>
+      <h2 className={`${oswald.className} text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:ml-[5.3%]`}>MENU</h2>
 
 
-      <div className='md:flex md:flex-row-reverse md:px-[15.5%] md:justify-between md:items-center md:mt-[220px]'>
+      <div className='md:flex md:flex-row-reverse md:px-[15.5%] md:justify-between md:items-center md:mt-[100px]'>
 
 
-      <div className='relative h-[185px] w-full mt-[127px] md:h-[251px] md:w-[32.7%]'>
+      <div className='relative h-[185px] w-full mt-[127px] md:mt-0 md:h-[251px] md:w-[32.7%]'>
         <MenuImage/>
       </div>
 
