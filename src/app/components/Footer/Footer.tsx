@@ -5,12 +5,12 @@ import { oswald } from '../../utils/Fonts'
 export default function Footer() {
   return (
     <footer className='mt-[49px] mb-[12px] px-[5.3%] md:px-0'>
-      <nav>
+      <nav className='md:flex md:justify-end'>
      <ul className={`${oswald.className} grid grid-cols-2 text-[1.4rem] font-bold leading-normal text-[#F5F5F5]
-     md:text-[2rem]
+     md:text-[2rem] md:grid-cols-[14.24%_14.24%] md:gap-x-30
      `}>
             <li><Link href='#concept' aria-label='CONCEPTセクションへ移動' className=''>CONCEPT</Link></li>
-            <li><Link href='' aria-label='ABOUTMEページへ移動'>ABOUT ME</Link></li>
+            <li><Link href='' aria-label='ABOUTMEページへ移動' className='whitespace-nowrap'>ABOUT ME</Link></li>
             <li><Link href='' aria-label='WORKSページへ移動'>WORKS</Link></li>
             <li><Link href='#MENU' aria-label='MENUセクションへ移動'>MENU</Link></li>
             <li><Link href='#contact' aria-label='CONTACTセクションへ移動'>CONTACT</Link></li>
