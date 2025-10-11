@@ -1,4 +1,5 @@
 import { oswald } from '@/app/utils/Fonts'
+import ScrollFade from '@/app/utils/ScrollFade'
 import React from 'react'
 
 export default function Access() {
@@ -6,7 +7,9 @@ export default function Access() {
     <section className='px-[5.3%] mt-[49px] md:mt-[100px] pb-[34px] md:pb-[100px] flex flex-col md:flex-row md:gap-[10%]'>
 
     <div className='contents md:block'>
+    <ScrollFade>
       <h2 className={`${oswald.className} text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5]`}>ACCESS</h2>
+      </ScrollFade>
      
     <dl className='order-2'>
       <dt className='mt-[27px] md:mt-0 text-[1.6rem] md:text-[1.8rem]'>住所</dt>
@@ -28,5 +31,4 @@ export default function Access() {
     </section>
   )
 }
-
 

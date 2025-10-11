@@ -3,11 +3,14 @@ import Image from 'next/image'
 import { oswald } from '@/app/utils/Fonts';
 import Link from 'next/link';
 import Viewmore from '@/app/utils/Viewmore';
+import ScrollFade from '@/app/utils/ScrollFade';
 
 export default function Works() {
  return (
     <section className='px-[10.8%] mt-[49px] md:px-0 md:mt-[100px] md:pb-[100px]'>
+        <ScrollFade>
         <h2 className={`${oswald.className} text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:ml-[5.3%]`}>WORKS</h2>
+        </ScrollFade>
         <div className='grid grid-cols-2 gap-x-[18.6%] gap-y-[75px] mt-[50px]
         md:grid-cols-5 md:px-[9.1%] md:gap-x-[12.7%] md:gap-y-[237px] md:mt-[100px]
         '>
@@ -96,5 +99,4 @@ export default function Works() {
     </section>
   )
 }
-
 

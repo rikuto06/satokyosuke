@@ -3,6 +3,7 @@ import React from 'react'
 import { oswald } from '@/app/utils/Fonts';
 import Image from 'next/image';
 import MenuImage from './MenuImage';
+import ScrollFade from '@/app/utils/ScrollFade';
 
 
 export default function Menu() {
@@ -10,7 +11,9 @@ export default function Menu() {
 
   return (
     <section className='px-[5.3%] mt-[49px] md:px-0 md:mt-[100px] md:pb-[100px]'>
+      <ScrollFade>
       <h2 className={`${oswald.className} text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:ml-[5.3%]`}>MENU</h2>
+      </ScrollFade>
 
 
       <div className='md:flex md:flex-row-reverse md:px-[15.5%] md:justify-between md:items-center md:mt-[100px]'>
