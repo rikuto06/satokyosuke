@@ -4,6 +4,7 @@ import { oswald } from "@/app/utils/Fonts";
 import Image from "next/image";
 import Link from "next/link";
 import Viewmore from "@/app/utils/Viewmore";
+import ScrollFade from "@/app/utils/ScrollFade";
 
 const images = [
   "/about-bind.jpeg",
@@ -75,13 +76,14 @@ export default function Aboutpc() {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
+        <ScrollFade>
         <h2
           className={`${oswald.className} text-[22.1rem] text-transparent text-[6.5rem] font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] text-center`}
         >
           ABOUT
           <br />
           ME
-        </h2>
+        </h2></ScrollFade>
 
         <div className="flex justify-center mt-[78px]">
           <p className="text-left text-[1.6rem]">
@@ -121,5 +123,4 @@ export default function Aboutpc() {
     </section>
   );
 }
-
 
