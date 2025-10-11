@@ -10,7 +10,7 @@ export default function Footer() {
      md:text-[2rem] md:grid-cols-[14.24%_14.24%] md:gap-x-30
      `}>
             <li><Link href='#concept' aria-label='CONCEPTセクションへ移動' className='hover:opacity-70'>CONCEPT</Link></li>
-            <li><Link href='' aria-label='ABOUTMEページへ移動' className='whitespace-nowrap hover:opacity-70'>ABOUT ME</Link></li>
+            <li><Link href='/about' aria-label='ABOUTMEページへ移動' className='whitespace-nowrap hover:opacity-70'>ABOUT ME</Link></li>
             <li><Link href='' aria-label='WORKSページへ移動' className='hover:opacity-70'>WORKS</Link></li>
             <li><Link href='#MENU' aria-label='MENUセクションへ移動' className='hover:opacity-70'>MENU</Link></li>
             <li><Link href='#contact' aria-label='CONTACTセクションへ移動' className='hover:opacity-70'>CONTACT</Link></li>
