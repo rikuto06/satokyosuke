@@ -23,7 +23,7 @@ export default function Aboutsp() {
     </div>
       <p className='mt-[17px]'>フェードやクロップを始めたきっかけは<span className='tracking-[-0.35rem]'>「</span>男らしさを<br/>際立たせるため」。施術では肩の力を抜いて過ごせる<br/>よう<span>、</span>居心地を大切にしています。</p>
       <div className={`${oswald.className} mt-[39px]`}>
-          <Link href='' aria-label='ABOUTページへ移動' className='flex items-center gap-[11px] justify-end'>VIEW MORE <span className='relative block h-[16px] w-[16px]'><Image src='/Vector.png' alt='' fill/></span></Link>
+          <Link href='/about' aria-label='ABOUTページへ移動' className='flex items-center gap-[11px] justify-end'>VIEW MORE <span className='relative block h-[16px] w-[16px]'><Image src='/Vector.png' alt='' fill/></span></Link>
       </div>
     </section>
   )

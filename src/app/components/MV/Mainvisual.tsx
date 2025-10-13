@@ -10,7 +10,7 @@ export default function
     <section className='relative -z-1'>
       <ScrollFade>
     <p className={`${oswald.className} absolute -top-[3.5rem] left-[5.3%] text-transparent text-[6.5rem] font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5]
-    md:text-[18rem] md:-top-[2.5rem]
+    md:text-[18rem] md:-top-[2.5rem] 
     `}>TO ALL</p>
     <p className={`${oswald.className} absolute top-[4.3rem] left-[5.3%] text-transparent text-[6.5rem] font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5]
     md:text-[18rem] md:top-[19.3rem]
