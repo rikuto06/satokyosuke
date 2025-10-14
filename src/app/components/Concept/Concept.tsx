@@ -28,7 +28,7 @@ export default function Concept() {
     </div>
 
     <div>
-     <p className='mt-[5px] ml-[8%] text-[1.6rem] leading-[2.9rem] md:text-[3.2rem] md:mt-[44px] md:ml-[1.8%]'>来るだけで<span className='tracking-[-0.304rem]'>、</span>気分も髪もスッキリ。<br/>話しながら君に合うスタイルを作ります。</p>
+     <p className='mt-[5px] ml-[8%] text-[1.6rem] leading-[2.9rem] md:text-[3.2rem] md:mt-[44px] md:ml-[1.8%] md:leading-[4.3rem]'>来るだけで<span className='tracking-[-0.304rem]'>、</span>気分も髪もスッキリ。<br/>話しながら君に合うスタイルを作ります。</p>
     <p className='mt-[6px] ml-[8%] md:text-[2rem] md:mt-[41px] md:ml-[1.8%]'>変わるのは髪型だけじゃない<span className='tracking-[-0.35rem]'>。</span>鏡を見るたびに、昨日よりも少し自信<br className='hidden md:block'/>が芽生える。新しい自分に出会う<span className='tracking-[-0.35rem]'>、</span>その瞬間を楽しんでください。<br className='hidden md:block'/>フェードでもクロップでも<span className='tracking-[-0.35rem]'>、</span>ちょっとの勇気で毎日が変わる<span className='tracking-[-0.35rem]'>。</span>その一歩を軽く踏み出せば<span className='tracking-[-0.35rem]'>、</span>そこから後は任せてください<span className='tracking-[-0.35rem]'>。</span>インスタグラムにて<br className='hidden md:block'/>ご予約承っております<span className='tracking-[-0.35rem]'>。</span>あなたの来店を<span className='tracking-[-0.35rem]'>、</span>心よりお待ちしています。</p>
     </div>
 </div>
