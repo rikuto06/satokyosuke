@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function () {
+export default function Message() {
   return (
     <section className='mt-[49px] md:mt-[61px] md:pb-[100px]'>
     <p className='ml-[10.4%] leading-[50px]

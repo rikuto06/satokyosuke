@@ -19,7 +19,7 @@ export default function Concept() {
     <div className='flex mt-[49px]'>
       <h4 className='[writing-mode:vertical-rl]'>KYOSUKE SATO</h4>
 
-      <div className='relative h-[25.5rem] w-full flex-1
+      <div className='relative aspect-[310/255] md:aspect-[411/646] flex-1
       md:h-[411px]
       '>
       <Image src='/concept.png' alt='理容師佐藤京介が、こちらを見ている写真' fill />

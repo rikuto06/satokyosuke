@@ -27,7 +27,7 @@ export default function Home() {
   const jsonLd = { /* ...あなたのJSON-LD... */ };
 
   return (
-    <>
+    <main>
             <Header />
             <Mainvisual />
             <Message />
@@ -43,7 +43,7 @@ export default function Home() {
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
           />
-        </>
+    </main>
       )
   
 }

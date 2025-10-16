@@ -119,7 +119,7 @@ export default function Aboutpc() {
       )}
 
       {/* VIEW MOREボタン - 通常カーソルエリア */}
-      <Viewmore/>
+      <Viewmore href="/about" ariaLabel="アバウトページへ移動"/>
     </section>
   );
 }

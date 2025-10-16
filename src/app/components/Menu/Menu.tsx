@@ -19,8 +19,9 @@ export default function Menu() {
       <div className='md:flex md:flex-row-reverse md:px-[15.5%] md:justify-between md:items-center md:mt-[100px]'>
 
 
-      <div className='relative h-[185px] w-full mt-[127px] md:mt-0 md:h-[251px] md:w-[32.7%]'>
-        <MenuImage/>
+      <div className='relative aspect-[331/185] mt-[127px] md:mt-0 '>
+        <Image src='/menuimage-sp.png' alt='理容師佐藤京介が男性客の髪を切っている写真' width={331}
+    height={185} />
       </div>
 
 <div className='md:flex md:flex-col'>

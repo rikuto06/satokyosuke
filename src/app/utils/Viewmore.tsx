@@ -4,18 +4,21 @@ import { oswald } from "@/app/utils/Fonts";
 import Link from 'next/link';
 import Image from 'next/image';
 
+interface ViewProps {
+  href:string;
+  ariaLabel:string
+}
 
 
-
-export default function Viewmore() {
+export default function Viewmore({href,ariaLabel}:ViewProps) {
     const [isHovered, setIsHovered] = React.useState(false);
   return (
      <div
         className={`${oswald.className} mt-[39px] md:mt-[48px] flex justify-end md:mr-[9.71%]`}
       >
         <Link
-          href="#"
-          aria-label="ページトップへ移動"
+          href={href}
+          aria-label={ariaLabel}
           className="flex items-center gap-x-[10px] relative"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}

@@ -4,7 +4,7 @@ import { oswald } from '@/app/utils/Fonts';
 import Mainimg from './Mainimg';
 import ScrollFade from '@/app/utils/ScrollFade';
 
-export default function 
+export default function Mainvisual
 () {
   return (
     <section className='relative -z-1'>
@@ -18,8 +18,8 @@ export default function
     <h2 className='[writing-mode:vertical-rl] absolute top-[8.5rem] right-[12%] text-[2.5rem]
     md:text-[5.2rem] md:top-[9.5rem] md:tracking-[1.11rem] md:whitespace-nowrap
     '>男の覚悟を刻み込もう。</h2>
-    <div className='h-[70rem] relative -z-10
-    md:h-[702px] md:w-[84.65%] ml-auto
+    <div className='h-[70rem] relative -z-10 
+    md:h-[702px] md:w-[84.65%] ml-auto md:aspect-[1219/702]
     '>
         <Mainimg/>
     </div>
