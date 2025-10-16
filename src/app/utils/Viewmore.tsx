@@ -23,7 +23,7 @@ export default function Viewmore({href,ariaLabel}:ViewProps) {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          <div>VIEWMORE</div>
+          <div className='md:text-[1.8rem] 2xl:text-[3rem]'>VIEW MORE</div>
           <div className="h-[16px] w-[16px] relative overflow-hidden">
             {/* 最初の矢印 */}
             <div

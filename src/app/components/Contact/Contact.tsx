@@ -17,14 +17,15 @@ export default function Contact() {
       
     
   return (
-  <section className="bg-[url('/contactbg.jpg')] bg-cover bg-center py-[49px] pl-[5.3%] md:py-[100px] md:flex md:items-center md:gap-[12.6%]" id='contact'>
+  <section className="bg-[url('/contactbg.png')] bg-cover bg-center py-[49px] pl-[5.3%] md:py-[100px] md:flex md:items-center md:gap-[12.6%]" id='contact'>
     <ScrollFade>
     <h2 className={`${oswald.className} text-transparent [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] text-[clamp(6.4rem,10vw,22.1rem)] font-bold
     `}>CONTACT</h2></ScrollFade>
     <div>
     <Link
-          href="#"
+          href="https://beauty.hotpepper.jp/slnH000379984/stylist/T001061791/?fbclid=PAZXh0bgNhZW0CMTEAAadK5RGUzkzEDWc9nrEl_H9B0MHoGv_6rKcGNpfehGSTW7sPtal2UdvdZo7dxQ_aem_npgvnsT3_S-RYx-MZjsOmQ#"
           aria-label="ホットペッパービューティーのページへ移動"
+          target='_blank'
           className={`${oswald.className} font-bold flex items-center gap-x-[10px] relative`}
           onMouseEnter={() => setIsHoveredhb(true)}
           onMouseLeave={() => setIsHoveredhb(false)}
@@ -54,8 +55,9 @@ export default function Contact() {
           </div>
         </Link>
     <Link
-          href="#"
+          href="https://www.instagram.com/ky0_1?utm_source=ig_web_button_share_sheet&igsh=NmZrMnE4ZTR4NDJ3"
           aria-label="インスタグラムのページへ移動"
+          target='_blank'
           className={`${oswald.className} flex items-center gap-x-[10px] relative mt-[18px]`}
           onMouseEnter={() => setIsHoveredig(true)}
           onMouseLeave={() => setIsHoveredig(false)}
