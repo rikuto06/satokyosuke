@@ -10,10 +10,10 @@ interface WorksProps {
 export default function WorksCard({imgsrc,hairex}:WorksProps) {
   return (
     <figure>
-        <div className='relative aspect-[163/222]'>
+        <div className='relative aspect-[163/222] md:aspect-[332/442]'>
             <Image src={imgsrc} alt='ヘアスタイルの一例です' fill/>
         </div>
-        <figcaption className={`${oswald.className} `}>{hairex}</figcaption>
+        <figcaption className={`${oswald.className} md:text-[1.6rem]`}>{hairex}</figcaption>
     </figure>
   )
 }
