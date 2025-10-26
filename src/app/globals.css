@@ -16,12 +16,19 @@ body {
   /* overflow: clip; を削除 */
 }
 
-#scroll-container {
-  /* height: 100svh; を削除 */
-  /* overflow: auto; を削除 - 通常のスクロールに戻す */
-  /* scroll-behavior: smooth; */
-  /* -webkit-overflow-scrolling: touch; */
-  min-height: 100vh; /* これを追加 */
+.animate-reveal {
+  animation: revealUp 1.5s ease-out forwards;
+}
+
+@keyframes revealUp {
+  0% {
+    clip-path: inset(100% 0 0 0);
+    opacity: 0;
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
 }
 
 .sticky-element {

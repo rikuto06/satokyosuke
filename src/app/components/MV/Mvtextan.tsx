@@ -3,7 +3,7 @@ import Image from "next/image";
 import { SplitText } from "gsap/all";
 import gsap from "gsap";
 import _SplitText from "gsap/SplitText";
-import { ReactNode, useEffect, useRef, useState } from "react";
+import { ReactNode, useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(_SplitText,ScrollTrigger);
 
@@ -12,20 +12,8 @@ type ScrollFadeProps = {
   start?: string;
 }
 
-export default function ScrollFade({children, start = 'top 70%'}: ScrollFadeProps) {
+export default function Mvtextan({children, start = 'top 100%'}: ScrollFadeProps) {
   const textRef = useRef<HTMLDivElement>(null);
-  const [LoadingComplete,setLoadingComplete] = useState(false)
-
-  useEffect(()=>{
-    const handleLoadingComplete = () => {
-      setLoadingComplete(true);};
-
-      window.addEventListener('LoadingComplete',handleLoadingComplete);
-      return () => {
-        window.removeEventListener('LoadingComplete',handleLoadingComplete);
-      };
-    
-  },[])
 
   useEffect(()=>{
     if (textRef.current) {
@@ -43,10 +31,8 @@ export default function ScrollFade({children, start = 'top 70%'}: ScrollFadeProp
       stagger: 0.05
       },);
 
-      ScrollTrigger.refresh();
-
     }
-  },[LoadingComplete,start])
+  },[])
   return (
    
     <div ref={textRef} >{children}</div>

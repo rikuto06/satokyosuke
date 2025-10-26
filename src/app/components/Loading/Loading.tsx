@@ -9,9 +9,14 @@ export default function Loading() {
 
 
     useEffect(()=>{
+
+        
         const Timer = setTimeout(()=>{
             setisLoading(false);
-        },3500)
+            window.dispatchEvent(new Event('LoadingComplete'))
+        },3500);
+
+        return () => clearTimeout(Timer);
     },[])
 
     if(!isLoading)return null;

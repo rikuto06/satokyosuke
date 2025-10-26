@@ -4,6 +4,7 @@ import { oswald } from '@/app/utils/Fonts';
 import Image from 'next/image';
 import MenuImage from './MenuImage';
 import ScrollFade from '@/app/utils/ScrollFade';
+import ScrollSlide from '@/app/utils/ScrollSlide';
 
 
 export default function Menu() {
@@ -15,7 +16,7 @@ export default function Menu() {
       <h2 className={`${oswald.className} text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:ml-[5.3%]`}>MENU</h2>
       </ScrollFade>
 
-
+    <ScrollSlide>
       <div className='md:flex md:flex-row-reverse md:px-[15.5%] md:justify-between md:items-center md:mt-[100px] md:gap-[21%]'>
 
 
@@ -52,7 +53,7 @@ export default function Menu() {
 
 
     </div>
+    </ScrollSlide>
     </section>
   )
 }
-

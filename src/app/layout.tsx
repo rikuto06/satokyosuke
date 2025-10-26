@@ -24,7 +24,6 @@ export default function RootLayout({
   return (
     <html lang="ja" className={oswald.variable}>
       <body>
-        <Loading/>
         <SmoothScroll />
         {children}
       </body>

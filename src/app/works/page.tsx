@@ -37,10 +37,16 @@ export default function WorksPage() {
           <WorksCard imgsrc='/hair-pink.jpeg' hairex='CUT&COLOR' />
           <WorksCard imgsrc='/hair-sunglassgold.jpeg' hairex='CUT&COLOR' />
           <WorksCard imgsrc='/haircrop-shaved.jpg' hairex='CUT&COLOR' />
-          <WorksCard imgsrc='/hairek.jpeg' hairex='CUT&COLOR' />
+          <WorksCard imgsrc='/hairek.jpeg' hairex='CUT' />
           <WorksCard imgsrc='/hair-orange.jpeg' hairex='CUT&COLOR' />
           <WorksCard imgsrc='/hair-reverse.jpeg' hairex='CUT' />
           <WorksCard imgsrc='/hair-medium.jpeg' hairex='CUT' />
+          <WorksCard imgsrc='/hair-bl.jpg' hairex='CUT&PERM' />
+          <WorksCard imgsrc='/hair-tkms.JPG' hairex='CUT' />
+          <WorksCard imgsrc='/hair-gld.jpg' hairex='CUT&COLOR&PERM' />
+          <WorksCard imgsrc='/hair-brwn.jpeg' hairex='CUT&COLOR' />
+          <WorksCard imgsrc='/hair-gldyg.jpeg' hairex='CUT&COLOR&PERM' />
+          <WorksCard imgsrc='/hair-prmct.jpeg' hairex='CUT&PERM' />
         </div>
           
     </section>

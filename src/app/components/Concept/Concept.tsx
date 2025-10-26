@@ -1,16 +1,18 @@
 import { oswald } from '@/app/utils/Fonts'
 import ScrollFade from '@/app/utils/ScrollFade'
+import ScrollSlide from '@/app/utils/ScrollSlide'
 import Image from 'next/image'
 import React from 'react'
 export default function Concept() {
   return (
+
    <section  className='mt-[49px] pl-[5.3%] pr-[6.93%] pb-[49px] md:px-0 md:mt-[100px] md:pb-[100px]' id='concept'>
     <ScrollFade>
     <h2 className={`${oswald.className} text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5]
      md:pl-[5.3%]
     `}>CONCEPT</h2></ScrollFade>
+    <ScrollSlide>
     <div className='md:flex gap-x-[6.7%]'>
-
     <h3 className='text-[2.4rem] font-medium mt-[47px] 
     md:[writing-mode:vertical-rl] md:text-[6.4rem] md:ml-[17.7%] md:mt-[59px]
     '><p>若者に刺さる</p><p className='mt-[10px] md:mt-[115px]'>男前スタイルの拠点</p></h3>
@@ -33,7 +35,10 @@ export default function Concept() {
     </div>
 </div>
     </div>
+    </ScrollSlide>
        </section>
   )
 }
+
+
 

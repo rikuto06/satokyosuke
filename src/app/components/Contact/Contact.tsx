@@ -6,6 +6,7 @@ import gsap from 'gsap';
 import { SplitText } from 'gsap/all';
 import _SplitText from 'gsap/SplitText';
 import ScrollFade from '@/app/utils/ScrollFade';
+import ScrollSlide from '@/app/utils/ScrollSlide';
 
 gsap.registerPlugin(_SplitText);
 
@@ -21,7 +22,8 @@ export default function Contact() {
     <ScrollFade>
     <h2 className={`${oswald.className} text-transparent [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] text-[clamp(6.4rem,10vw,22.1rem)] font-bold
     `}>CONTACT</h2></ScrollFade>
-    <div>
+
+    <ScrollSlide>
     <Link
           href="https://beauty.hotpepper.jp/slnH000379984/stylist/T001061791/?fbclid=PAZXh0bgNhZW0CMTEAAadK5RGUzkzEDWc9nrEl_H9B0MHoGv_6rKcGNpfehGSTW7sPtal2UdvdZo7dxQ_aem_npgvnsT3_S-RYx-MZjsOmQ#"
           aria-label="ホットペッパービューティーのページへ移動"
@@ -86,7 +88,7 @@ export default function Contact() {
             </div>
           </div>
         </Link>
-        </div>
+        </ScrollSlide>
 </section>
   )
 }
