@@ -12,6 +12,7 @@ import Access from "./components/Access/Access";
 import About from "./components/ABOUT/Aboutsection";
 import Loading from "./components/Loading/Loading";
 import React, { useEffect } from "react";
+import Mv from "./components/MV/Mv";
 
 export default function Home() {
   const [isLoading, setIsLoading] = React.useState(true);
@@ -29,7 +30,7 @@ export default function Home() {
   return (
     <main>
             <Header />
-            <Mainvisual />
+            <Mv/>
             <Message />
             <Concept />
             <About />
@@ -47,3 +48,4 @@ export default function Home() {
       )
   
 }
+

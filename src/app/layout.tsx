@@ -27,8 +27,8 @@ export default function RootLayout({
         <SmoothScroll />
         {children}
       </body>
+      
     </html>
   );
 }
-
 

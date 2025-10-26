@@ -55,5 +55,6 @@ export default function Menu() {
     </div>
     </ScrollSlide>
     </section>
+    
   )
 }
