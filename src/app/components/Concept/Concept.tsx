@@ -21,8 +21,8 @@ export default function Concept() {
     <div className='flex mt-[49px] md:mt-[59px]'>
       <h4 className='[writing-mode:vertical-rl] md:text-[1.6rem] md:mr-[1.8%]'>KYOSUKE SATO</h4>
 
-      <div className='relative aspect-[310/255] md:aspect-[411/646] flex-1
-      md:h-[411px]
+      <div className='relative aspect-[310/255] md:aspect-[646/411] flex-1
+      
       '>
       <Image src='/concept.png' alt='理容師佐藤京介が、こちらを見ている写真' fill />
       </div>
