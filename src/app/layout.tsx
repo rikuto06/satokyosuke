@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
-import SmoothScroll from "./utils/SmoothScroll";
 import Loading from "./components/Loading/Loading";
 
 const oswald = Oswald({
@@ -24,7 +23,6 @@ export default function RootLayout({
   return (
     <html lang="ja" className={oswald.variable}>
       <body>
-        <SmoothScroll />
         {children}
       </body>
       
