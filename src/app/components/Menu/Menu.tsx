@@ -2,7 +2,6 @@
 import React from 'react'
 import { oswald } from '@/app/utils/Fonts';
 import Image from 'next/image';
-import MenuImage from './MenuImage';
 import ScrollFade from '@/app/utils/ScrollFade';
 import ScrollSlide from '@/app/utils/ScrollSlide';
 

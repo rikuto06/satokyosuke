@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { oswald } from "@/app/utils/Fonts";
-import Link from "next/link";
 import Viewmore from "@/app/utils/Viewmore";
 import ScrollFade from "@/app/utils/ScrollFade";
 import { motion } from "motion/react";

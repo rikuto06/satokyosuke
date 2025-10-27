@@ -1,5 +1,4 @@
 'use client'
-import Image from "next/image";
 import { SplitText } from "gsap/all";
 import gsap from "gsap";
 import _SplitText from "gsap/SplitText";

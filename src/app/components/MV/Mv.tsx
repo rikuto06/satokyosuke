@@ -1,5 +1,4 @@
 import { oswald } from '@/app/utils/Fonts'
-import { section } from 'motion/react-m'
 import Image from 'next/image'
 import React from 'react'
 

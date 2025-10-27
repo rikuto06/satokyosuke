@@ -3,7 +3,6 @@ import { oswald } from '@/app/utils/Fonts'
 import Link from 'next/link'
 import Image from 'next/image';
 import gsap from 'gsap';
-import { SplitText } from 'gsap/all';
 import _SplitText from 'gsap/SplitText';
 import ScrollFade from '@/app/utils/ScrollFade';
 import ScrollSlide from '@/app/utils/ScrollSlide';
