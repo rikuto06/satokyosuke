@@ -5,12 +5,10 @@ import Menu from "./components/Menu/Menu";
 import Concept from "./components/Concept/Concept";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Mainvisual from "./components/MV/Mainvisual";
 import Works from "./components/Works/Works";
 import Script from "next/script";
 import Access from "./components/Access/Access";
 import About from "./components/ABOUT/Aboutsection";
-import Loading from "./components/Loading/Loading";
 import React, { useEffect } from "react";
 import Mv from "./components/MV/Mv";
 
