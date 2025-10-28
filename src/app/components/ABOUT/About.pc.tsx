@@ -75,14 +75,13 @@ export default function Aboutpc() {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <ScrollFade>
         <h2
           className={`${oswald.className} text-[22.1rem] text-transparent text-[6.5rem] font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] text-center`}
         >
           ABOUT
           <br />
           ME
-        </h2></ScrollFade>
+        </h2>
 
         <div className="flex justify-center mt-[78px]">
           <p className="text-left text-[1.6rem]">

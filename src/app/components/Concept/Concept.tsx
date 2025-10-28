@@ -7,10 +7,9 @@ export default function Concept() {
   return (
 
    <section  className='mt-[49px] pl-[5.3%] pr-[6.93%] pb-[49px] md:px-0 md:mt-[100px] md:pb-[100px]' id='concept'>
-    <ScrollFade>
     <h2 className={`${oswald.className} text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5]
      md:pl-[5.3%]
-    `}>CONCEPT</h2></ScrollFade>
+    `}>CONCEPT</h2>
     <ScrollSlide>
     <div className='md:flex gap-x-[6.7%]'>
     <h3 className='text-[2.4rem] font-medium mt-[47px] 

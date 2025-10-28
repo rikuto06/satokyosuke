@@ -3,7 +3,6 @@ import Image from "next/image";
 import { oswald } from "@/app/utils/Fonts";
 import Viewmore from "@/app/utils/Viewmore";
 import ScrollFade from "@/app/utils/ScrollFade";
-import { motion } from "motion/react";
 import ScrollSlide from "@/app/utils/ScrollSlide";
 
 export default function Works() {
@@ -16,7 +15,6 @@ export default function Works() {
           WORKS
         </h2>
       </ScrollFade>
-      <ScrollSlide>
       <div
         className="grid grid-cols-2 gap-x-[18.6%] gap-y-[75px] mt-[50px]
         md:grid-cols-5 md:px-[9.1%] md:gap-x-[12.7%] md:gap-y-[237px] md:mt-[100px]
@@ -86,24 +84,23 @@ export default function Works() {
             className="object-cover"
           />
         </div>
-        <motion.div className="relative aspect-[89/123] hover:scale-150 duration-300">
+        <div className="relative aspect-[89/123] hover:scale-150 duration-300">
           <Image
             src={"/hair-jm.jpeg"}
             alt="ヘアスタイル画像"
             fill
             className="object-cover"
           />
-        </motion.div>
-        <motion.div className="relative aspect-[89/123] hover:scale-150 duration-300">
+        </div>
+        <div className="relative aspect-[89/123] hover:scale-150 duration-300">
           <Image
             src={"/hairek.jpeg"}
             alt="ヘアスタイル画像"
             fill
             className="object-cover"
           />
-        </motion.div>
+        </div>
       </div>
-      </ScrollSlide>
       <Viewmore href="/works" ariaLabel="ワークスページへ移動" />
     </section>
   );

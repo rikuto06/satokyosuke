@@ -18,9 +18,8 @@ export default function Contact() {
     
   return (
   <section className="bg-[url('/contactbg.png')]  bg-cover bg-center py-[49px] pl-[5.3%] md:py-[100px] md:flex md:items-center md:gap-[12.6%]" id='contact'>
-    <ScrollFade>
     <h2 className={`${oswald.className} text-transparent [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] text-[clamp(6.4rem,10vw,22.1rem)] font-bold
-    `}>CONTACT</h2></ScrollFade>
+    `}>CONTACT</h2>
 
     <ScrollSlide>
     <Link
