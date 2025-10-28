@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
-import Loading from "./components/Loading/Loading";
 
 const oswald = Oswald({
   subsets: ["latin"],

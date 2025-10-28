@@ -4,9 +4,6 @@ import Link from 'next/link'
 import Image from 'next/image';
 import gsap from 'gsap';
 import _SplitText from 'gsap/SplitText';
-import ScrollFade from '@/app/utils/ScrollFade';
-import ScrollSlide from '@/app/utils/ScrollSlide';
-import { img } from 'motion/react-client';
 import Contactan from '@/app/utils/Contactan';
 
 gsap.registerPlugin(_SplitText);
