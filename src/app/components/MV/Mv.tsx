@@ -1,4 +1,5 @@
 import { oswald } from '@/app/utils/Fonts'
+import { img } from 'motion/react-client'
 import Image from 'next/image'
 import React from 'react'
 
@@ -11,15 +12,16 @@ export default function Mv() {
         md:mt-[84px]
         `}>TO ALL BOYS</p>
         <div className='relative  aspect-[678/390] hidden md:block animate-reveal '>
-        <Image src='/wash.png' alt='理容師佐藤京介が男性客の髪を洗っている様子の画像' fill className='object-cover'/>
+        <Image src='/wash.png' alt='理容師佐藤京介が男性客の髪を洗っている様子の画像' fill className='object-contain'/>
         </div>
         </div>
         <div className='relative aspect-[344/432]
-         md:aspect-[426/568]  flex-1 animate-reveal
+        md:aspect-[680/688]  flex-1 animate-reveal
         '>
-        <Image src='/mv-cut.jpeg' alt='理容師佐藤京介が男性客の髪を切っている様子の画像' fill/>
+        <Image src='/mv.png' alt='理容師佐藤京介が男性客の髪を切っている様子の画像' className='object-cover' fill/>
         </div>
     </section>
   )
 }
+
 

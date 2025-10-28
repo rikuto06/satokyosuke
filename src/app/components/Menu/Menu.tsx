@@ -20,7 +20,7 @@ export default function Menu() {
 
 
       <div className='relative aspect-[331/185] mt-[127px] md:mt-0 md:aspect-[325/251] md:h-[251px]'>
-        <Image src='/menuimage-sp.png' alt='理容師佐藤京介が男性客の髪を切っている写真' fill />
+        <Image src='/menuimage-sp.png' alt='理容師佐藤京介が男性客の髪を切っている写真' fill className='object-contain'/>
       </div>
 
 <div className='md:flex md:flex-col flex-1'>

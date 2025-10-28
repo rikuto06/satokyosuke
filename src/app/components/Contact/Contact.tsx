@@ -6,6 +6,7 @@ import gsap from 'gsap';
 import _SplitText from 'gsap/SplitText';
 import ScrollFade from '@/app/utils/ScrollFade';
 import ScrollSlide from '@/app/utils/ScrollSlide';
+import { img } from 'motion/react-client';
 
 gsap.registerPlugin(_SplitText);
 
@@ -14,10 +15,9 @@ export default function Contact() {
   const [isHoveredig, setIsHoveredig] = React.useState(false);
 
 
-      
     
   return (
-  <section className="bg-[url('/contactbg.png')] bg-cover bg-center py-[49px] pl-[5.3%] md:py-[100px] md:flex md:items-center md:gap-[12.6%]" id='contact'>
+  <section className="bg-[url('/contactbg.png')]  bg-cover bg-center py-[49px] pl-[5.3%] md:py-[100px] md:flex md:items-center md:gap-[12.6%]" id='contact'>
     <ScrollFade>
     <h2 className={`${oswald.className} text-transparent [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] text-[clamp(6.4rem,10vw,22.1rem)] font-bold
     `}>CONTACT</h2></ScrollFade>
@@ -43,6 +43,7 @@ export default function Contact() {
             >
               <Image src="/Vector.png" alt="" fill className="object-contain" />
             </div>
+            {/* 2番目の矢印 */}
             <div
               className="absolute inset-0"
               style={{
@@ -90,4 +91,3 @@ export default function Contact() {
 </section>
   )
 }
-

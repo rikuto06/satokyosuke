@@ -24,7 +24,7 @@ export default function Concept() {
       <div className='relative aspect-[310/255] md:aspect-[646/411] flex-1
       
       '>
-      <Image src='/concept.png' alt='理容師佐藤京介が、こちらを見ている写真' fill />
+      <Image src='/concept.png' alt='理容師佐藤京介が、こちらを見ている写真' fill className='object-cover' />
       </div>
       
     </div>
