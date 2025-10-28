@@ -7,6 +7,7 @@ import _SplitText from 'gsap/SplitText';
 import ScrollFade from '@/app/utils/ScrollFade';
 import ScrollSlide from '@/app/utils/ScrollSlide';
 import { img } from 'motion/react-client';
+import Contactan from '@/app/utils/Contactan';
 
 gsap.registerPlugin(_SplitText);
 
@@ -20,8 +21,7 @@ export default function Contact() {
   <section className="bg-[url('/contactbg.png')]  bg-cover bg-center py-[49px] pl-[5.3%] md:py-[100px] md:flex md:items-center md:gap-[12.6%]" id='contact'>
     <h2 className={`${oswald.className} text-transparent [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] text-[clamp(6.4rem,10vw,22.1rem)] font-bold
     `}>CONTACT</h2>
-
-    <ScrollSlide>
+  <Contactan>
     <Link
           href="https://beauty.hotpepper.jp/slnH000379984/stylist/T001061791/?fbclid=PAZXh0bgNhZW0CMTEAAadK5RGUzkzEDWc9nrEl_H9B0MHoGv_6rKcGNpfehGSTW7sPtal2UdvdZo7dxQ_aem_npgvnsT3_S-RYx-MZjsOmQ#"
           aria-label="ホットペッパービューティーのページへ移動"
@@ -86,7 +86,7 @@ export default function Contact() {
             </div>
           </div>
         </Link>
-        </ScrollSlide>
+        </Contactan>
 </section>
   )
 }
