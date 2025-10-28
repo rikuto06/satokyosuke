@@ -21,7 +21,7 @@ export default function AboutPage() {
     `}>ABOUT ME</h2>
     <figure className='md:flex md:items-start md:mx-[13%] md:gap-[17.8%]'>
     <div className='relative mx-[13%] aspect-[290/378] mt-[49px]
-    md:aspect-[426/568] md:mx-0
+    md:aspect-[426/568] h-[568px] md:mx-0
     '>
         <Image src='/aboutimg.jpeg' alt='理容師佐藤恭介がこちらをみている画像' fill className=''/>
     </div>

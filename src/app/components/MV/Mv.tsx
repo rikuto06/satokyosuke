@@ -15,7 +15,7 @@ export default function Mv() {
         </div>
         </div>
         <div className='relative aspect-[344/432]
-         md:aspect-[426/568] h-[680px] flex-1 animate-reveal
+         md:aspect-[426/568]  flex-1 animate-reveal
         '>
         <Image src='/mv-cut.jpeg' alt='理容師佐藤京介が男性客の髪を切っている様子の画像' fill/>
         </div>
