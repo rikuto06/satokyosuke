@@ -43,7 +43,6 @@ export default function Contact() {
             >
               <Image src="/Vector.png" alt="" fill className="object-contain" />
             </div>
-            {/* 2番目の矢印 */}
             <div
               className="absolute inset-0"
               style={{

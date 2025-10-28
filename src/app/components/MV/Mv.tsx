@@ -10,14 +10,14 @@ export default function Mv() {
         <p className={`${oswald.className} text-[4.2rem] font-bold text-transparent [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] mt-[47px]
         md:mt-[84px]
         `}>TO ALL BOYS</p>
-        <div className='relative  aspect-[678/390] hidden md:block animate-reveal'>
-        <Image src='/wash.png' alt='理容師佐藤京介が男性客の髪を洗っている様子の画像' fill/>
+        <div className='relative  aspect-[678/390] hidden md:block animate-reveal '>
+        <Image src='/wash.png' alt='理容師佐藤京介が男性客の髪を洗っている様子の画像' fill className='object-cover'/>
         </div>
         </div>
         <div className='relative aspect-[344/432]
-         md:aspect-[680/688] flex-1 animate-reveal
+         md:aspect-[426/568] h-[680px] flex-1 animate-reveal
         '>
-        <Image src='/mv.png' alt='理容師佐藤京介が男性客の髪を切っている様子の画像' fill/>
+        <Image src='/mv-cut.jpeg' alt='理容師佐藤京介が男性客の髪を切っている様子の画像' fill/>
         </div>
     </section>
   )

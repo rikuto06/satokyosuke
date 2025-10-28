@@ -38,7 +38,7 @@ export default function Works() {
             className="object-cover"
           />
         </div>
-        <div className="relative aspect-[89/123] hover:scale-150 duration-300">
+        <div className="relative aspect-[89/123] hover:scale-150 duration-300 z-50">
           <Image
             src={"/hair-gold.jpeg"}
             alt="ヘアスタイル画像"
@@ -46,7 +46,7 @@ export default function Works() {
             className="object-cover"
           />
         </div>
-        <div className="relative aspect-[89/123] hover:scale-150 duration-300">
+        <div className="relative aspect-[89/123] hover:scale-150 duration-300 z-50">
           <Image
             src={"/hair-pink.jpeg"}
             alt="ヘアスタイル画像"
@@ -54,7 +54,7 @@ export default function Works() {
             className="object-cover"
           />
         </div>
-        <div className="relative aspect-[89/123] hover:scale-150 duration-300">
+        <div className="relative aspect-[89/123] hover:scale-150 duration-300 z-50">
           <Image
             src={"/hair-line.jpeg"}
             alt="ヘアスタイル画像"
@@ -62,7 +62,7 @@ export default function Works() {
             className="object-cover"
           />
         </div>
-        <div className="relative aspect-[89/123] hover:scale-150 duration-300">
+        <div className="relative aspect-[89/123] hover:scale-150 duration-300 z-50">
           <Image
             src={"/hair-perm.jpeg"}
             alt="ヘアスタイル画像"
@@ -70,7 +70,7 @@ export default function Works() {
             className="object-cover"
           />
         </div>
-        <div className="relative aspect-[89/123] hover:scale-150 duration-300">
+        <div className="relative aspect-[89/123] hover:scale-150 duration-300 z-50">
           <Image
             src={"/hair-perm-dread.jpg"}
             alt="ヘアスタイル画像"
