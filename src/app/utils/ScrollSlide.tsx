@@ -19,7 +19,7 @@ export default function ScrollSlide({children}:SlideProps) {
     <div className='overflow-x-hidden'>
     <motion.div style={{x,opacity}} ref={ref} className='overflow-x-hidden'>
         {children}
-    </motion.div>d
+    </motion.div>
   </div>
   )
 }
