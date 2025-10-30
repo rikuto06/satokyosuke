@@ -17,7 +17,7 @@ export default function Footer() {
             <li><Link href='/#access' aria-label='アクセスセクションへ移動' className='hover:opacity-70'>ACCESS</Link></li>
         </ul>
       </nav>
-      <div className={`${oswald.className} text-[15vw] md:text-[16.18vw] mt-[50px] font-bold whitespace-nowrap leading-[100%] text-transparent [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:px-[1.1%]`}>KYOSUKE SATO</div>
+      <div className={`${oswald.className} text-[15vw] md:text-[16.18vw] mt-[50px] font-bold whitespace-nowrap leading-[100%] text-transparent [-webkit-text-stroke-width:1px]  md:px-[1.1%]`}>KYOSUKE SATO</div>
       <small className='text-outline-custom rotate-[0.03deg] block text-[1rem] text-right mr-[1.1%] mt-[15px]'>&copy;KYOSUKESATO2025</small>
     </footer>
   )
