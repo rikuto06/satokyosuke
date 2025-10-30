@@ -12,7 +12,7 @@ export default function Menu() {
   return (
     <section className='px-[5.3%] mt-[49px] pb-[49px] md:px-0 md:mt-[100px] md:pb-[200px]' id='menu'>
       <ScrollFade>
-      <h2 className={`${oswald.className} text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:ml-[5.3%]`}>MENU</h2>
+      <h2 className={`${oswald.className} rotate-[0.03deg] rotate-[0.03deg] text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] md:ml-[5.3%]`}>MENU</h2>
       </ScrollFade>
 
     <ScrollSlide>

@@ -17,7 +17,7 @@ export default function Aboutsp() {
 
   return (
     <section className='bg-[#001A00] pt-[49px] px-[5.3%] pb-[49px]'>
-      <h2 className={`${oswald.className} text-[6.4rem] text-transparent  font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] text-center`}>ABOUT<br/>ME</h2>
+      <h2 className={`${oswald.className} rotate-[0.03deg] text-[6.4rem] text-transparent  font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] text-center`}>ABOUT<br/>ME</h2>
       <div className='relative aspect-[252/251] mx-[11.2%] mt-[92px]' onClick={handleTap}>
     <Image src={images[index]} alt='タップするたびに、順番に様々な理容師佐藤京介の画像が表示されています' fill className='object-cover' />
     </div>

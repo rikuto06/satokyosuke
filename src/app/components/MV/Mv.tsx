@@ -8,7 +8,7 @@ export default function Mv() {
     <section className='px-[4.2%] md:flex flex-row-reverse md:gap-x-[1.8%] md:px-[5.3%] items-end'>
         <div className='flex-1'>
         <h2 className='text-[2.1rem] md:text-[2.4rem] md:ml-[50%]'>男の覚悟を<br/>刻み込もう</h2>
-        <p className={`${oswald.className} text-[4.2rem] font-bold text-transparent [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] mt-[47px]
+        <p className={`${oswald.className} rotate-[0.03deg] text-[4.2rem] font-bold text-transparent [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] mt-[47px]
         md:mt-[84px]
         `}>TO ALL BOYS</p>
         <div className='relative  aspect-[678/390] hidden md:block animate-reveal '>
