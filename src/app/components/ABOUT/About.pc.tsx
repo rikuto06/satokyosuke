@@ -76,7 +76,7 @@ export default function Aboutpc() {
         onMouseLeave={handleMouseLeave}
       >
         <h2
-          className={`${oswald.className} text-[22.1rem] text-transparent text-[6.5rem] font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] rotate-[0.03deg] text-center`}
+          className={`${oswald.className}  text-[22.1rem] text-transparent text-[6.5rem] font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5] rotate-[0.03deg] text-center`}
         >
           ABOUT
           <br />

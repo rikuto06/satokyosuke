@@ -8,7 +8,7 @@ export default function Access() {
     <section className='px-[5.3%] mt-[49px] md:mt-[100px] pb-[34px] md:pb-[100px] flex flex-col md:flex-row md:gap-[10%] md:justify-between'>
 
     <div className='contents md:block'>
-      <h2 className={`${oswald.className} text-outline-custom rotate-[0.03deg] text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:#F5F5F5]`} id='access'>ACCESS</h2>
+      <h2 className={`${oswald.className} text-outline-custom rotate-[0.03deg] text-[clamp(6.4rem,10vw,22.1rem)] text-transparent font-bold leading-[100%] `} id='access'>ACCESS</h2>
      
     <ScrollSlide>
     <dl className='order-2 mt-[27px] md:mt-[133px]'>
