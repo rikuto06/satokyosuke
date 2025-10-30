@@ -26,8 +26,8 @@ export default function Home() {
   const jsonLd = { /* ...あなたのJSON-LD... */ };
 
   return (
-    <main>
-            <Header />
+    <main className="relative">
+            <Header/>
             <Mv/>
             <Message />
             <Concept />

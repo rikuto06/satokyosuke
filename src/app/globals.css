@@ -93,3 +93,17 @@ html, body {
   text-rendering: optimizeLegibility;
 }
 
+
+.text-outline-custom {
+  color: #0D0D0D;
+  text-shadow:
+    1px 0 #F5F5F5,
+   -1px 0 #F5F5F5,  
+    0 1px #F5F5F5,   
+    0 -1px #F5F5F5,  
+    1px 1px #F5F5F5, 
+   -1px 1px #F5F5F5, 
+    1px -1px #F5F5F5,
+   -1px -1px #F5F5F5;
+}
+
