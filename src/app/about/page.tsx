@@ -28,7 +28,6 @@ export default function AboutPage() {
     <div>
     <figcaption className='mt-[32px] px-[5.3%] md:px-0 md:mt-[43px]'>
       <div>
-      <p className={`${oswald.className} font-bold md:text-[1.6rem]`}>KYOSUKE SATO</p>
       <p className='text-[2.2rem] md:text-[2.8rem]'>佐藤 京介</p>
       </div>
       <p className='mt-[24px] lg:text-[1.6rem] 2xl:text-[2.8rem]'>佐藤 京介です。男らしさを引き立てるスタイルを得意としており、<span className='tracking-[-0.21rem]'/>一人ひとりの雰囲気に合った仕上がりを意識しています。施術中は居心地の良さを大切にし、<span className= 'tracking-[-0.21rem]'/>リラックスして過ごせる時間を心がけています。仕上がった瞬間に気分が上がるような、<span className='tracking-[-0.21rem]'/>そんな感覚を味わってもらえると嬉しいです。髪を整えることが、<span className='tracking-[-0.21rem]'/>自分を整えることにつながる。そう感じてもらえるよう、<span className='tracking-[-0.21rem]'/>丁寧に向き合っていきます。</p>
