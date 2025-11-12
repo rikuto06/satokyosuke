@@ -11,7 +11,7 @@ export default function WorksCard({imgsrc,hairex}:WorksProps) {
   return (
     <figure>
         <div className='relative aspect-[163/222] md:aspect-[332/442]'>
-            <Image src={imgsrc} alt='ヘアスタイルの一例です' fill/>
+            <Image src={imgsrc} alt='ヘアスタイルの一例です' width={163} height={222} className='w-full h-auto'/>
         </div>
         <figcaption className={`${oswald.className} md:text-[1.6rem]`}>{hairex}</figcaption>
     </figure>
