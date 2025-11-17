@@ -30,7 +30,6 @@ export default function WorksPage() {
           <WorksCard imgsrc='/hair-fade.jpg' hairex='CUT' />
           <WorksCard imgsrc='/hair-gold-easyperm.jpeg' hairex='CUT&COLOR' />
           <WorksCard imgsrc='/hair-gold.jpeg' hairex='CUT&COLOR' />
-          <WorksCard imgsrc='/hair-jm.jpeg' hairex='CUT&COLOR&PERM' />
           <WorksCard imgsrc='/hair-line.jpeg' hairex='CUT&COLOR&PERM' />
           <WorksCard imgsrc='/hair-perm-dread.jpg' hairex='CUT&PERM' />
           <WorksCard imgsrc='/hair-perm.jpeg' hairex='CUT&PERM' />
