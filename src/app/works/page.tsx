@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import Hamberger from '../components/Header/Hamberger'
 import Header from '../components/Header/Header'
