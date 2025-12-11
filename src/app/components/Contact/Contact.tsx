@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useRef } from 'react'
 import { oswald } from '@/app/utils/Fonts'
 import Link from 'next/link'
