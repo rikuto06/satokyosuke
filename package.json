@@ -14,7 +14,7 @@
     "@studio-freight/tempus": "^0.0.44",
     "gsap": "^3.13.0",
     "motion": "^12.23.24",
-    "next": "15.5.4",
+    "next": "15.5.7",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "recoil": "^0.7.7"
